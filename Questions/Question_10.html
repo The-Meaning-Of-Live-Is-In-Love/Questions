@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            Вопросы
+        </title>
+        <link rel = "stylesheet" href = "../CSS/Styles.css">
+    </head>
+    <body>
+        <script src = "../JavaScript/Main.js">
+        </script>
+        <div class = "Main_Block">
+            <div class = "Main_Block_Header">
+                Какой из нижеперечисленных языков программирования является более простым?
+            </div>
+            <form onsubmit = "return Answer_('Task_Answer_10')">
+                <input type = "radio" name = "Task_Answer_10" id = "Task_Answer_10_1" value = "1"/>
+                C++
+                <br>
+                <input type = "radio" name = "Task_Answer_10" id = "Task_Answer_10_2" value = "2"/>
+                Python
+                <br>
+                <input type = "radio" name = "Task_Answer_10" id = "Task_Answer_10_3" value = "3"/>
+                Linux(Bash)
+                <br>
+                <button type = "submit">
+                    Отправить
+                </button>
+            </form>
+            <button onclick = "window.location = 'Question_9.html'">
+                Предыдущий вопрос
+            </button>
+            <button onclick = "window.location = '../Result/Result.html'">
+                Завершить
+            </button>
+        </div>
+    </body>
+</html>
