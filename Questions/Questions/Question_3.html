@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            Вопросы
+        </title>
+        <link rel = "stylesheet" href = "../CSS/Styles.css">
+    </head>
+    <body>
+        <script src = "../JavaScript/Main.js">
+        </script>
+        <div class = "Main_Block">
+            <div class = "Main_Block_Header">
+                Какое ПО используется для создания презентация?
+            </div>
+            <form onsubmit = "return Answer_('Task_Answer_3')">
+                <input type = "radio" name = "Task_Answer_3" id = "Task_Answer_3_1" value = "1"/>
+                MS Office Word
+                <br>
+                <input type = "radio" name = "Task_Answer_3" id = "Task_Answer_3_2" value = "2"/>
+                MS Office Power Point
+                <br>
+                <input type = "radio" name = "Task_Answer_3" id = "Task_Answer_3_3" value = "3"/>
+                MS Office Excel
+                <br>
+                <button type = "submit">
+                    Отправить
+                </button>
+            </form>
+            <button onclick = "window.location = 'Question_2.html'">
+                Предыдущий вопрос
+            </button>
+            <button onclick = "window.location = 'Question_4.html'">
+                Следующий вопрос
+            </button>
+        </div>
+    </body>
+</html>
